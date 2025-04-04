@@ -54,12 +54,13 @@ async function processWithDelay(
 
       for (const num of numbers) {
         if (is_start) {
+       
+          }
+          const result = await delayResult(num, options.delayTime);
           widthStep += step;
           if (progessElement && inner_myProgress) {
             progessElement.style.width = `${widthStep}%`;
             inner_myProgress.innerText = `${widthStep}%`;
-          }
-          const result = await delayResult(num, options.delayTime);
           console.log(result);
         } else {
           break;
