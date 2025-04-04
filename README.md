@@ -7,7 +7,7 @@ https://drive.google.com/drive/folders/1lFjS4HcRKlmDYT9k0CLmqNgLLp62wTcv?usp=sha
 <p>1. clone project</p>
 
 ```
-https://github.com/phamtronghieu2002/Logic_Test.git
+git clone https://github.com/phamtronghieu2002/Logic_Test.git
 ```
 
 <p>2. In cmd run</p>
